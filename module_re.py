@@ -1,8 +1,3 @@
-# 1.Получите текст из файла.
-
-
-import re
-
 with open ('text.txt', 'rb') as li:
     li1 = li.read()
     li2 = li1.decode('utf-8')
